@@ -17,6 +17,8 @@ npm run domo-publish
 
 Create 2 terminal windows/tabs and run each command in its own respective window/tab.
 
+_iOS_
+
 ### Terminal 1:
 
 ```
@@ -29,12 +31,34 @@ npm run watch
 npm run dev
 ```
 
+_Windows_
+
+### Terminal 1:
+
+```
+npm run watch
+```
+
+### Terminal 2:
+
+```
+npm run win-dev
+```
+
 Develop as you normally would using [Domo App Dev Studio CLI](https://developer.domo.com/docs/dev-studio/dev-studio-overview).
 
 ## Compiles and minifies for production
 
+_iOS_
+
 ```
 npm run domo-publish
+```
+
+_Windows_
+
+```
+npm run win-domo-publish
 ```
 
 ## Lints and fixes files
