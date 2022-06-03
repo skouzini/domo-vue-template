@@ -8,7 +8,9 @@
     "watch": "vue-cli-service build --watch",
     "lint": "vue-cli-service lint",
     "dev": "cp ./domo/manifest.json ./dist && cp ./domo/thumbnail.png ./dist && cp ./domo/domo.js ./dist/js && cd ./dist && domo dev",
-    "domo-publish": "npm run build && cp ./domo/manifest.json ./dist && cp ./domo/thumbnail.png ./dist && cd ./dist && domo publish && ./manifest.json ../domo && cd ../"
+    "win-dev": "copy .\\domo\\manifest.json .\\dist && copy .\\domo\\thumbnail.png .\\dist && copy .\\domo\\domo.js .\\dist\\js && cd .\\dist && domo dev",
+    "domo-publish": "npm run build && cp ./domo/manifest.json ./dist && cp ./domo/thumbnail.png ./dist && cd ./dist && domo publish&& cd ../ && cp ./manifest.json ../domo ",
+    "win-domo-publish": "npm run build && copy .\\domo\\manifest.json .\\dist && copy .\\domo\\thumbnail.png .\\dist && cd .\\dist && domo publish && cd ..\\ && copy .\\dist\\manifest.json .\\domo "
   },
   "dependencies": {
     "core-js": "^3.8.3",
