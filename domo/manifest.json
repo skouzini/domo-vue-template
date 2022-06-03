@@ -1,0 +1,17 @@
+{
+  "name": "domo-vue-template",
+  "version": "0.1.0",
+  "fullpage": true,
+  "size": {
+    "width": 5,
+    "height": 3
+  },
+  "mapping": [
+    {
+      "dataSetId": "---replace me---",
+      "alias": "---name me---",
+      "fields": []
+    }
+  ],
+  "fileName": "manifest.json"
+}
